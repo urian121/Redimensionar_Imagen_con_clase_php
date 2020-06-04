@@ -26,7 +26,7 @@ try {
     $image->setBackgroundColor('#ffffff');
 
     # Contain the image:
-    $image->contain(300, 300);
+    $image->contain(400, 300);
 
     $image->output("output"); // Asegurate que la carpeta donde lo vas a guardar permita lectura y escritura, tambien verifica sus carpetas padres
 
